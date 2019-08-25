@@ -107,6 +107,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1F96D582312F2A6008260E2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D1F96D632312FB97008260E2 /* Networking.swift */,
+				D1F96D6723141475008260E2 /* TBAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D1F96D592312F2CA008260E2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF7DB12312DB0400BD2091 /* ViewController.swift */,
+				D1FF7DB32312DB0400BD2091 /* Main.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D1F96D5C2312F500008260E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF7DB62312DB0600BD2091 /* Assets.xcassets */,
+				D1FF7DB82312DB0600BD2091 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D1FF7DA32312DB0400BD2091 = {
 			isa = PBXGroup;
 			children = (
@@ -131,11 +158,10 @@
 		D1FF7DAE2312DB0400BD2091 /* TechBookFestClient */ = {
 			isa = PBXGroup;
 			children = (
+				D1F96D582312F2A6008260E2 /* Network */,
+				D1F96D592312F2CA008260E2 /* Scenes */,
+				D1F96D5C2312F500008260E2 /* Resources */,
 				D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */,
-				D1FF7DB12312DB0400BD2091 /* ViewController.swift */,
-				D1FF7DB32312DB0400BD2091 /* Main.storyboard */,
-				D1FF7DB62312DB0600BD2091 /* Assets.xcassets */,
-				D1FF7DB82312DB0600BD2091 /* LaunchScreen.storyboard */,
 				D1FF7DBB2312DB0600BD2091 /* Info.plist */,
 			);
 			path = TechBookFestClient;
