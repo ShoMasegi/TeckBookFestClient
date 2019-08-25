@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
+		D1FF7DB22312DB0400BD2091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DB12312DB0400BD2091 /* ViewController.swift */; };
+		D1FF7DB52312DB0400BD2091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB32312DB0400BD2091 /* Main.storyboard */; };
+		D1FF7DB72312DB0600BD2091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB62312DB0600BD2091 /* Assets.xcassets */; };
+		D1FF7DBA2312DB0600BD2091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB82312DB0600BD2091 /* LaunchScreen.storyboard */; };
+		D1FF7DC52312DB0600BD2091 /* TechBookFestClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DC42312DB0600BD2091 /* TechBookFestClientTests.swift */; };
+		D1FF7DD02312DB0600BD2091 /* TechBookFestClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DCF2312DB0600BD2091 /* TechBookFestClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1FF7DC12312DB0600BD2091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FF7DA42312DB0400BD2091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FF7DAB2312DB0400BD2091;
+			remoteInfo = TechBookFestClient;
+		};
+		D1FF7DCC2312DB0600BD2091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FF7DA42312DB0400BD2091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FF7DAB2312DB0400BD2091;
+			remoteInfo = TechBookFestClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1FF7DB12312DB0400BD2091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1FF7DB42312DB0400BD2091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1FF7DB62312DB0600BD2091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1FF7DB92312DB0600BD2091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1FF7DBB2312DB0600BD2091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FF7DC02312DB0600BD2091 /* TechBookFestClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechBookFestClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FF7DC42312DB0600BD2091 /* TechBookFestClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechBookFestClientTests.swift; sourceTree = "<group>"; };
+		D1FF7DC62312DB0600BD2091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FF7DCB2312DB0600BD2091 /* TechBookFestClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechBookFestClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FF7DCF2312DB0600BD2091 /* TechBookFestClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechBookFestClientUITests.swift; sourceTree = "<group>"; };
+		D1FF7DD12312DB0600BD2091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1FF7DA92312DB0400BD2091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FF7DBD2312DB0600BD2091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FF7DC82312DB0600BD2091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1FF7DA32312DB0400BD2091 = {
+			isa = PBXGroup;
+			children = (
+				D1FF7DAE2312DB0400BD2091 /* TechBookFestClient */,
+				D1FF7DC32312DB0600BD2091 /* TechBookFestClientTests */,
+				D1FF7DCE2312DB0600BD2091 /* TechBookFestClientUITests */,
+				D1FF7DAD2312DB0400BD2091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1FF7DAD2312DB0400BD2091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */,
+				D1FF7DC02312DB0600BD2091 /* TechBookFestClientTests.xctest */,
+				D1FF7DCB2312DB0600BD2091 /* TechBookFestClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1FF7DAE2312DB0400BD2091 /* TechBookFestClient */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */,
+				D1FF7DB12312DB0400BD2091 /* ViewController.swift */,
+				D1FF7DB32312DB0400BD2091 /* Main.storyboard */,
+				D1FF7DB62312DB0600BD2091 /* Assets.xcassets */,
+				D1FF7DB82312DB0600BD2091 /* LaunchScreen.storyboard */,
+				D1FF7DBB2312DB0600BD2091 /* Info.plist */,
+			);
+			path = TechBookFestClient;
+			sourceTree = "<group>";
+		};
+		D1FF7DC32312DB0600BD2091 /* TechBookFestClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF7DC42312DB0600BD2091 /* TechBookFestClientTests.swift */,
+				D1FF7DC62312DB0600BD2091 /* Info.plist */,
+			);
+			path = TechBookFestClientTests;
+			sourceTree = "<group>";
+		};
+		D1FF7DCE2312DB0600BD2091 /* TechBookFestClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF7DCF2312DB0600BD2091 /* TechBookFestClientUITests.swift */,
+				D1FF7DD12312DB0600BD2091 /* Info.plist */,
+			);
+			path = TechBookFestClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1FF7DAB2312DB0400BD2091 /* TechBookFestClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FF7DD42312DB0600BD2091 /* Build configuration list for PBXNativeTarget "TechBookFestClient" */;
+			buildPhases = (
+				D1FF7DA82312DB0400BD2091 /* Sources */,
+				D1FF7DA92312DB0400BD2091 /* Frameworks */,
+				D1FF7DAA2312DB0400BD2091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechBookFestClient;
+			productName = TechBookFestClient;
+			productReference = D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1FF7DBF2312DB0600BD2091 /* TechBookFestClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FF7DD72312DB0600BD2091 /* Build configuration list for PBXNativeTarget "TechBookFestClientTests" */;
+			buildPhases = (
+				D1FF7DBC2312DB0600BD2091 /* Sources */,
+				D1FF7DBD2312DB0600BD2091 /* Frameworks */,
+				D1FF7DBE2312DB0600BD2091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FF7DC22312DB0600BD2091 /* PBXTargetDependency */,
+			);
+			name = TechBookFestClientTests;
+			productName = TechBookFestClientTests;
+			productReference = D1FF7DC02312DB0600BD2091 /* TechBookFestClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1FF7DCA2312DB0600BD2091 /* TechBookFestClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FF7DDA2312DB0600BD2091 /* Build configuration list for PBXNativeTarget "TechBookFestClientUITests" */;
+			buildPhases = (
+				D1FF7DC72312DB0600BD2091 /* Sources */,
+				D1FF7DC82312DB0600BD2091 /* Frameworks */,
+				D1FF7DC92312DB0600BD2091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FF7DCD2312DB0600BD2091 /* PBXTargetDependency */,
+			);
+			name = TechBookFestClientUITests;
+			productName = TechBookFestClientUITests;
+			productReference = D1FF7DCB2312DB0600BD2091 /* TechBookFestClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1FF7DA42312DB0400BD2091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = ShoMasegi;
+				TargetAttributes = {
+					D1FF7DAB2312DB0400BD2091 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D1FF7DBF2312DB0600BD2091 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D1FF7DAB2312DB0400BD2091;
+					};
+					D1FF7DCA2312DB0600BD2091 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D1FF7DAB2312DB0400BD2091;
+					};
+				};
+			};
+			buildConfigurationList = D1FF7DA72312DB0400BD2091 /* Build configuration list for PBXProject "TechBookFestClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1FF7DA32312DB0400BD2091;
+			productRefGroup = D1FF7DAD2312DB0400BD2091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FF7DAB2312DB0400BD2091 /* TechBookFestClient */,
+				D1FF7DBF2312DB0600BD2091 /* TechBookFestClientTests */,
+				D1FF7DCA2312DB0600BD2091 /* TechBookFestClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1FF7DAA2312DB0400BD2091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FF7DBA2312DB0600BD2091 /* LaunchScreen.storyboard in Resources */,
+				D1FF7DB72312DB0600BD2091 /* Assets.xcassets in Resources */,
+				D1FF7DB52312DB0400BD2091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FF7DBE2312DB0600BD2091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FF7DC92312DB0600BD2091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1FF7DA82312DB0400BD2091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FF7DB22312DB0400BD2091 /* ViewController.swift in Sources */,
+				D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FF7DBC2312DB0600BD2091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FF7DC52312DB0600BD2091 /* TechBookFestClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FF7DC72312DB0600BD2091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FF7DD02312DB0600BD2091 /* TechBookFestClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1FF7DC22312DB0600BD2091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FF7DAB2312DB0400BD2091 /* TechBookFestClient */;
+			targetProxy = D1FF7DC12312DB0600BD2091 /* PBXContainerItemProxy */;
+		};
+		D1FF7DCD2312DB0600BD2091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FF7DAB2312DB0400BD2091 /* TechBookFestClient */;
+			targetProxy = D1FF7DCC2312DB0600BD2091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1FF7DB32312DB0400BD2091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1FF7DB42312DB0400BD2091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1FF7DB82312DB0600BD2091 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1FF7DB92312DB0600BD2091 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1FF7DD22312DB0600BD2091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1FF7DD32312DB0600BD2091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1FF7DD52312DB0600BD2091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechBookFestClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sho.masegi.TechBookFestClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1FF7DD62312DB0600BD2091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechBookFestClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sho.masegi.TechBookFestClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1FF7DD82312DB0600BD2091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechBookFestClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sho.masegi.TechBookFestClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechBookFestClient.app/TechBookFestClient";
+			};
+			name = Debug;
+		};
+		D1FF7DD92312DB0600BD2091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechBookFestClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sho.masegi.TechBookFestClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechBookFestClient.app/TechBookFestClient";
+			};
+			name = Release;
+		};
+		D1FF7DDB2312DB0600BD2091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechBookFestClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sho.masegi.TechBookFestClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechBookFestClient;
+			};
+			name = Debug;
+		};
+		D1FF7DDC2312DB0600BD2091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechBookFestClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sho.masegi.TechBookFestClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechBookFestClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1FF7DA72312DB0400BD2091 /* Build configuration list for PBXProject "TechBookFestClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FF7DD22312DB0600BD2091 /* Debug */,
+				D1FF7DD32312DB0600BD2091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FF7DD42312DB0600BD2091 /* Build configuration list for PBXNativeTarget "TechBookFestClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FF7DD52312DB0600BD2091 /* Debug */,
+				D1FF7DD62312DB0600BD2091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FF7DD72312DB0600BD2091 /* Build configuration list for PBXNativeTarget "TechBookFestClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FF7DD82312DB0600BD2091 /* Debug */,
+				D1FF7DD92312DB0600BD2091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FF7DDA2312DB0600BD2091 /* Build configuration list for PBXNativeTarget "TechBookFestClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FF7DDB2312DB0600BD2091 /* Debug */,
+				D1FF7DDC2312DB0600BD2091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1FF7DA42312DB0400BD2091 /* Project object */;
+}
