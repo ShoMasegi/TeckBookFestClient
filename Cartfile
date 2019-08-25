@@ -1,0 +1,8 @@
+# Networking
+github "Moya/Moya" "14.0.0-alpha.2"
+
+# Rx
+github "ReactiveX/RxSwift" "5.0.1"
+
+# UI
+github "SVProgressHUD/SVProgressHUD"
