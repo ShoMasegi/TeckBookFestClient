@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D1F96D562312E5BB008260E2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE72312E0E900BD2091 /* RxBlocking.framework */; };
 		D1F96D572312E5BB008260E2 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE82312E0E900BD2091 /* RxTest.framework */; };
+		D1F96D642312FB97008260E2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D632312FB97008260E2 /* Networking.swift */; };
+		D1F96D6823141475008260E2 /* TBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D6723141475008260E2 /* TBAPI.swift */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
 		D1FF7DB22312DB0400BD2091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DB12312DB0400BD2091 /* ViewController.swift */; };
 		D1FF7DB52312DB0400BD2091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB32312DB0400BD2091 /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1F96D632312FB97008260E2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		D1F96D6723141475008260E2 /* TBAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBAPI.swift; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1FF7DB12312DB0400BD2091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -388,6 +392,8 @@
 			files = (
 				D1FF7DB22312DB0400BD2091 /* ViewController.swift in Sources */,
 				D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */,
+				D1F96D6823141475008260E2 /* TBAPI.swift in Sources */,
+				D1F96D642312FB97008260E2 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
