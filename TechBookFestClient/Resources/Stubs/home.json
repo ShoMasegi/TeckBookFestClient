@@ -1,0 +1,140 @@
+{
+  "cover_section": {
+    "image_url": "https://via.placeholder.com/480x270"
+  },
+  "description_section": {
+    "title": "技術書オンリーイベント",
+    "description": "技術書典とは、新しい技術に出会えるお祭りです。\n技術書典は、いろんな技術の普及を手伝いたいとの想いではじまりました。技術書を中心として出展者はノウハウを詰め込み、来場者はこの場にしかないおもしろい技術書をさがし求める、技術に関わる人のための場として『技術書典』を開催します。\n\n\n技術書典 Webサイト: https://techbookfest.org/ より引用"
+  },
+  "circles_section": {
+    "header": "サークルリスト",
+    "items": [
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      },
+      {
+        "title": "〇〇〇〇執筆部",
+        "circle_type": "operator",
+        "category": "ソフトウェア全般",
+        "image_url": "https://via.placeholder.com/360x512"
+      }
+    ]
+  }
+}
