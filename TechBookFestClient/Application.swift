@@ -7,8 +7,9 @@ final class Application {
     private init() {}
 
     func setup(in window: UIWindow) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        rootViewController.current = storyboard.instantiateInitialViewController()
+        rootViewController.current = UINavigationController(
+            rootViewController: HomeViewController.instantiateFromStoryboard()
+        )
         window.rootViewController = rootViewController
         window.makeKeyAndVisible()
     }
