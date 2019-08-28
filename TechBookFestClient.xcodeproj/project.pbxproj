@@ -16,6 +16,7 @@
 		D1F96D7223160768008260E2 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D7123160768008260E2 /* Circle.swift */; };
 		D1F96D762316ADBD008260E2 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D752316ADBD008260E2 /* Application.swift */; };
 		D1F96D782316ADF0008260E2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D772316ADF0008260E2 /* RootViewController.swift */; };
+		D1F96D7E2316BB4A008260E2 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D7D2316BB4A008260E2 /* StoryboardInstantiable.swift */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
 		D1FF7DB22312DB0400BD2091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DB12312DB0400BD2091 /* ViewController.swift */; };
 		D1FF7DB52312DB0400BD2091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB32312DB0400BD2091 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		D1F96D7123160768008260E2 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		D1F96D752316ADBD008260E2 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		D1F96D772316ADF0008260E2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D1F96D7D2316BB4A008260E2 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1FF7DB12312DB0400BD2091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +169,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		D1F96D792316BB0D008260E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1F96D7A2316BB1D008260E2 /* View */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D1F96D7A2316BB1D008260E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1F96D7D2316BB4A008260E2 /* StoryboardInstantiable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D1FF7DA32312DB0400BD2091 = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +209,7 @@
 		D1FF7DAE2312DB0400BD2091 /* TechBookFestClient */ = {
 			isa = PBXGroup;
 			children = (
+				D1F96D792316BB0D008260E2 /* Extensions */,
 				D1F96D6E2316073B008260E2 /* Models */,
 				D1F96D582312F2A6008260E2 /* Network */,
 				D1F96D592312F2CA008260E2 /* Scenes */,
@@ -426,6 +445,7 @@
 				D1FF7DB22312DB0400BD2091 /* ViewController.swift in Sources */,
 				D1F96D782316ADF0008260E2 /* RootViewController.swift in Sources */,
 				D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */,
+				D1F96D7E2316BB4A008260E2 /* StoryboardInstantiable.swift in Sources */,
 				D1F96D7023160754008260E2 /* Home.swift in Sources */,
 				D1F96D6823141475008260E2 /* TBAPI.swift in Sources */,
 				D1F96D642312FB97008260E2 /* Networking.swift in Sources */,
