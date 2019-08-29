@@ -17,6 +17,7 @@
 		D1F96D762316ADBD008260E2 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D752316ADBD008260E2 /* Application.swift */; };
 		D1F96D782316ADF0008260E2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D772316ADF0008260E2 /* RootViewController.swift */; };
 		D1F96D7E2316BB4A008260E2 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D7D2316BB4A008260E2 /* StoryboardInstantiable.swift */; };
+		D1F96D8223175584008260E2 /* UseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8123175584008260E2 /* UseCaseProvider.swift */; };
 		D1F96D8523175902008260E2 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8423175902008260E2 /* LockViewController.swift */; };
 		D1F96D8723175909008260E2 /* LockViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F96D8623175909008260E2 /* LockViewController.storyboard */; };
 		D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D882317FD18008260E2 /* FadeTransitionable.swift */; };
@@ -64,6 +65,7 @@
 		D1F96D752316ADBD008260E2 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		D1F96D772316ADF0008260E2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		D1F96D7D2316BB4A008260E2 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		D1F96D8123175584008260E2 /* UseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProvider.swift; sourceTree = "<group>"; };
 		D1F96D8423175902008260E2 /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
 		D1F96D8623175909008260E2 /* LockViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LockViewController.storyboard; sourceTree = "<group>"; };
 		D1F96D882317FD18008260E2 /* FadeTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransitionable.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			children = (
 				D1F96D632312FB97008260E2 /* Networking.swift */,
 				D1F96D6723141475008260E2 /* TBAPI.swift */,
+				D1F96D802317555F008260E2 /* UseCases */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -199,6 +202,14 @@
 				D1FF7DB32312DB0400BD2091 /* HomeViewController.storyboard */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		D1F96D802317555F008260E2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				D1F96D8123175584008260E2 /* UseCaseProvider.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		D1F96D83231758F3008260E2 /* Lock */ = {
@@ -475,6 +486,7 @@
 				D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */,
 				D1F96D7E2316BB4A008260E2 /* StoryboardInstantiable.swift in Sources */,
 				D1F96D7023160754008260E2 /* Home.swift in Sources */,
+				D1F96D8223175584008260E2 /* UseCaseProvider.swift in Sources */,
 				D1F96D6823141475008260E2 /* TBAPI.swift in Sources */,
 				D1F96D642312FB97008260E2 /* Networking.swift in Sources */,
 				D1F96D7223160768008260E2 /* Circle.swift in Sources */,
