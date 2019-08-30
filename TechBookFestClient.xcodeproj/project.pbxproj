@@ -21,6 +21,7 @@
 		D1F96D8523175902008260E2 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8423175902008260E2 /* LockViewController.swift */; };
 		D1F96D8723175909008260E2 /* LockViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F96D8623175909008260E2 /* LockViewController.storyboard */; };
 		D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D882317FD18008260E2 /* FadeTransitionable.swift */; };
+		D1F96D8B23180103008260E2 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8A23180103008260E2 /* HomePresenter.swift */; };
 		D1F96D8D231801DC008260E2 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8C231801DC008260E2 /* HomeUseCase.swift */; };
 		D1F96D8F23180B6C008260E2 /* MoyaResponse+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
@@ -71,6 +72,7 @@
 		D1F96D8423175902008260E2 /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
 		D1F96D8623175909008260E2 /* LockViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LockViewController.storyboard; sourceTree = "<group>"; };
 		D1F96D882317FD18008260E2 /* FadeTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransitionable.swift; sourceTree = "<group>"; };
+		D1F96D8A23180103008260E2 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		D1F96D8C231801DC008260E2 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaResponse+Extension.swift"; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +207,7 @@
 			children = (
 				D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */,
 				D1FF7DB32312DB0400BD2091 /* HomeViewController.storyboard */,
+				D1F96D8A23180103008260E2 /* HomePresenter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				D1F96D7023160754008260E2 /* Home.swift in Sources */,
 				D1F96D8D231801DC008260E2 /* HomeUseCase.swift in Sources */,
 				D1F96D8223175584008260E2 /* UseCaseProvider.swift in Sources */,
+				D1F96D8B23180103008260E2 /* HomePresenter.swift in Sources */,
 				D1F96D6823141475008260E2 /* TBAPI.swift in Sources */,
 				D1F96D642312FB97008260E2 /* Networking.swift in Sources */,
 				D1F96D7223160768008260E2 /* Circle.swift in Sources */,
