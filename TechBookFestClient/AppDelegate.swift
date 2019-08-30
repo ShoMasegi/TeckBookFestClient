@@ -9,6 +9,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
         setupWindow()
+        setupNavigationBar()
         return true
     }
 
@@ -18,5 +19,14 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
             Application.shared.setup(in: window)
             return window
         }()
+    }
+
+    private func setupNavigationBar() {
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().barTintColor = UIColor(red: 103/255, green: 173/255, blue: 91/255, alpha: 1.0)
+        UINavigationBar.appearance().barStyle = .black
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().shadowImage = UIImage()
     }
 }
