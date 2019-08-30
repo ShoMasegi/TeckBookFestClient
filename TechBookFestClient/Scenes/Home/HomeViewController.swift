@@ -35,6 +35,7 @@ final class HomeViewController: UIViewController, StoryboardInstantiable {
             tableView.registerFromNib(HomeCoverTableViewCell.self)
             tableView.registerFromNib(HomeDescriptionTableViewCell.self)
             tableView.registerFromNib(CircleTableViewCell.self)
+            tableView.registerReusableHeaderFooterFromNib(LabelTableViewHeaderFooterView.self)
         }
     }
 }
@@ -93,8 +94,22 @@ extension HomeViewController: UITableViewDelegate {
         }
     }
 
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        switch sections[section] {
+        case .circles(let section):
+            let view: LabelTableViewHeaderFooterView = tableView.dequeueReusableHeaderFooterView()
+            view.label.text = section.header
+            return view
+        default:
+            return nil
+        }
+    }
+
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return .leastNonzeroMagnitude
+        switch sections[section] {
+        case .circles: return 42
+        default: return .leastNonzeroMagnitude
+        }
     }
 
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
