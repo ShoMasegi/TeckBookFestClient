@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="135" id="KGk-i7-Jjw" customClass="CircleTableViewCell" customModule="TechBookFestClient" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="134.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VHX-92-chG">
+                        <rect key="frame" x="20" y="8" width="75" height="106.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="VHX-92-chG" secondAttribute="height" multiplier="360:512" id="B6C-o1-Kh6"/>
+                            <constraint firstAttribute="width" constant="75" id="aKL-GX-Re3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ソフトウェア全般" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLN-38-DVE">
+                        <rect key="frame" x="107" y="34" width="248" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shZ-4s-4w2">
+                        <rect key="frame" x="107" y="61" width="248" height="65.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="〇〇〇〇執筆部" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88v-7v-pqK">
+                        <rect key="frame" x="170" y="11" width="185" height="20"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Position" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8k-2P-Tx7" customClass="TagLabel" customModule="TechBookFestClient" customModuleProvider="target">
+                        <rect key="frame" x="107" y="12" width="55" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kLN-38-DVE" firstAttribute="leading" secondItem="VHX-92-chG" secondAttribute="trailing" constant="12" id="37x-yJ-whX"/>
+                    <constraint firstItem="s8k-2P-Tx7" firstAttribute="leading" secondItem="VHX-92-chG" secondAttribute="trailing" constant="12" id="4BP-qc-KkF"/>
+                    <constraint firstItem="88v-7v-pqK" firstAttribute="leading" secondItem="s8k-2P-Tx7" secondAttribute="trailing" constant="8" id="B9R-n1-gUf"/>
+                    <constraint firstItem="shZ-4s-4w2" firstAttribute="top" secondItem="kLN-38-DVE" secondAttribute="bottom" constant="10" id="BvD-ga-oI6"/>
+                    <constraint firstItem="shZ-4s-4w2" firstAttribute="leading" secondItem="VHX-92-chG" secondAttribute="trailing" constant="12" id="Fm5-xQ-puz"/>
+                    <constraint firstAttribute="trailing" secondItem="88v-7v-pqK" secondAttribute="trailing" constant="20" id="HzX-Op-Z0a"/>
+                    <constraint firstAttribute="trailing" secondItem="kLN-38-DVE" secondAttribute="trailing" constant="20" id="KNm-LH-yut"/>
+                    <constraint firstItem="kLN-38-DVE" firstAttribute="top" secondItem="s8k-2P-Tx7" secondAttribute="bottom" constant="4" id="LnY-n8-Z0K"/>
+                    <constraint firstItem="s8k-2P-Tx7" firstAttribute="top" secondItem="VHX-92-chG" secondAttribute="top" constant="4" id="Nfs-zt-pzU"/>
+                    <constraint firstItem="VHX-92-chG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="V2A-j5-oDI"/>
+                    <constraint firstAttribute="bottom" secondItem="shZ-4s-4w2" secondAttribute="bottom" constant="8" id="VTf-hC-nkD"/>
+                    <constraint firstItem="88v-7v-pqK" firstAttribute="centerY" secondItem="s8k-2P-Tx7" secondAttribute="centerY" id="Wqw-fe-G1q"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="VHX-92-chG" secondAttribute="bottom" constant="8" id="YYb-uZ-A4c"/>
+                    <constraint firstAttribute="trailing" secondItem="shZ-4s-4w2" secondAttribute="trailing" constant="20" id="lUN-sL-sFQ"/>
+                    <constraint firstItem="VHX-92-chG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="xXf-wh-vXG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="categoryLabel" destination="kLN-38-DVE" id="BAO-aW-ac0"/>
+                <outlet property="descriptionLabel" destination="shZ-4s-4w2" id="pAB-xf-A63"/>
+                <outlet property="nameLabel" destination="88v-7v-pqK" id="ci1-hC-PfN"/>
+                <outlet property="tagLabel" destination="s8k-2P-Tx7" id="P8y-x2-D5s"/>
+                <outlet property="thumbnailImageView" destination="VHX-92-chG" id="DJC-aa-Pvc"/>
+            </connections>
+            <point key="canvasLocation" x="89.130434782608702" y="44.53125"/>
+        </tableViewCell>
+    </objects>
+</document>
