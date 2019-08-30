@@ -1,7 +1,7 @@
 import Moya
 
-enum TBAPI {
-    case circles
+enum TBAPI: String {
+    case home
 }
 
 extension TBAPI: TargetType {
@@ -15,8 +15,8 @@ extension TBAPI: TargetType {
 
     var path: String {
         switch self {
-        case .circles:
-            return  "/circles"
+        case .home:
+            return  "/home"
         }
     }
 
