@@ -24,6 +24,7 @@
 		D1F96D8B23180103008260E2 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8A23180103008260E2 /* HomePresenter.swift */; };
 		D1F96D8D231801DC008260E2 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8C231801DC008260E2 /* HomeUseCase.swift */; };
 		D1F96D8F23180B6C008260E2 /* MoyaResponse+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */; };
+		D1F96D9E23190D71008260E2 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D9D23190D71008260E2 /* UITableView+Extension.swift */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
 		D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */; };
 		D1FF7DB52312DB0400BD2091 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB32312DB0400BD2091 /* HomeViewController.storyboard */; };
@@ -75,6 +76,7 @@
 		D1F96D8A23180103008260E2 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		D1F96D8C231801DC008260E2 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaResponse+Extension.swift"; sourceTree = "<group>"; };
+		D1F96D9D23190D71008260E2 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			children = (
 				D1F96D7D2316BB4A008260E2 /* StoryboardInstantiable.swift */,
 				D1F96D882317FD18008260E2 /* FadeTransitionable.swift */,
+				D1F96D9D23190D71008260E2 /* UITableView+Extension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1F96D762316ADBD008260E2 /* Application.swift in Sources */,
+				D1F96D9E23190D71008260E2 /* UITableView+Extension.swift in Sources */,
 				D1F96D8523175902008260E2 /* LockViewController.swift in Sources */,
 				D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */,
 				D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */,
