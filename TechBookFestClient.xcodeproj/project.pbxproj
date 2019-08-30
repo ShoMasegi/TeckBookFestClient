@@ -21,6 +21,7 @@
 		D1F96D8523175902008260E2 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8423175902008260E2 /* LockViewController.swift */; };
 		D1F96D8723175909008260E2 /* LockViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F96D8623175909008260E2 /* LockViewController.storyboard */; };
 		D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D882317FD18008260E2 /* FadeTransitionable.swift */; };
+		D1F96D8F23180B6C008260E2 /* MoyaResponse+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
 		D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */; };
 		D1FF7DB52312DB0400BD2091 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB32312DB0400BD2091 /* HomeViewController.storyboard */; };
@@ -69,6 +70,7 @@
 		D1F96D8423175902008260E2 /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
 		D1F96D8623175909008260E2 /* LockViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LockViewController.storyboard; sourceTree = "<group>"; };
 		D1F96D882317FD18008260E2 /* FadeTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransitionable.swift; sourceTree = "<group>"; };
+		D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaResponse+Extension.swift"; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		D1F96D792316BB0D008260E2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */,
 				D1F96D7A2316BB1D008260E2 /* View */,
 			);
 			path = Extensions;
@@ -482,6 +485,7 @@
 				D1F96D8523175902008260E2 /* LockViewController.swift in Sources */,
 				D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */,
 				D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */,
+				D1F96D8F23180B6C008260E2 /* MoyaResponse+Extension.swift in Sources */,
 				D1F96D782316ADF0008260E2 /* RootViewController.swift in Sources */,
 				D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */,
 				D1F96D7E2316BB4A008260E2 /* StoryboardInstantiable.swift in Sources */,
