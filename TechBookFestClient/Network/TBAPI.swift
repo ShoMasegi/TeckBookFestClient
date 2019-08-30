@@ -30,7 +30,7 @@ extension TBAPI: TargetType {
     var sampleData: Data {
         switch self {
         default:
-            fatalError("sampleData has not been implemented")
+            return stubbedResponse(rawValue)
         }
     }
 
@@ -46,10 +46,14 @@ extension TBAPI: TargetType {
     }
 }
 
-func stubbedResponse(_ filename: String) -> Data! {
-    @objc class TestClass: NSObject {}
+func stubbedResponse(_ filename: String) -> Data {
+    class TestClass: NSObject {}
 
     let bundle = Bundle(for: TestClass.self)
     let path = bundle.path(forResource: filename, ofType: "json")
-    return (try? Data(contentsOf: URL(fileURLWithPath: path!)))
+    do {
+        return (try Data(contentsOf: URL(fileURLWithPath: path!)))
+    } catch {
+        fatalError("Such a JSON file dose not exist.")
+    }
 }
