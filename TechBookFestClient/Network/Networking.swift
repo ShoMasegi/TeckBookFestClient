@@ -20,24 +20,28 @@ struct Networking: NetworkingType {
 }
 
 extension Networking {
-    func request(_ target: API, completion: @escaping (Moya.Response) -> Void) {
+    func request<T: Decodable>(_ target: API, completion: @escaping (Result<T, Error>) -> Void) {
         provider.request(target) { result in
             switch result {
             case .success(let response):
                 if self.responseFilterClosure?(response.statusCode) ?? true {
-                    completion(response)
+                    completion(.success(response.decode()))
                 }
             case .failure(let error):
                 print("Networking request error: \(error)")
+                completion(.failure(error))
             }
         }
     }
 
-    func request(_ target: API) -> Observable<Moya.Response> {
+    func request<T: Decodable>(_ target: API) -> Observable<T> {
         return provider.rx.request(target)
             .asObservable()
             .filter { response -> Bool in
                 self.responseFilterClosure?(response.statusCode) ?? true
+            }
+            .flatMap { response -> Observable<T> in
+                Observable.just(response.decode())
             }
     }
 }
