@@ -6,3 +6,7 @@ github "ReactiveX/RxSwift" "5.0.1"
 
 # UI
 github "SVProgressHUD/SVProgressHUD"
+
+# Image
+github "kean/Nuke" ~> 8.0
+

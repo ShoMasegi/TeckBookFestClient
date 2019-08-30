@@ -32,6 +32,7 @@
 		D1F96D9C23190D51008260E2 /* CircleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F96D9A23190D51008260E2 /* CircleTableViewCell.xib */; };
 		D1F96D9E23190D71008260E2 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D9D23190D71008260E2 /* UITableView+Extension.swift */; };
 		D1F96DA1231915FD008260E2 /* TagLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DA0231915FD008260E2 /* TagLabel.swift */; };
+		D1F96DA323192651008260E2 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F96DA223192651008260E2 /* Nuke.framework */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
 		D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */; };
 		D1FF7DB52312DB0400BD2091 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB32312DB0400BD2091 /* HomeViewController.storyboard */; };
@@ -91,6 +92,7 @@
 		D1F96D9A23190D51008260E2 /* CircleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleTableViewCell.xib; sourceTree = "<group>"; };
 		D1F96D9D23190D71008260E2 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		D1F96DA0231915FD008260E2 /* TagLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLabel.swift; sourceTree = "<group>"; };
+		D1F96DA223192651008260E2 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F96DA323192651008260E2 /* Nuke.framework in Frameworks */,
 				D1FF7DE92312E0E900BD2091 /* SVProgressHUD.framework in Frameworks */,
 				D1FF7DEA2312E0E900BD2091 /* ReactiveMoya.framework in Frameworks */,
 				D1FF7DEB2312E0E900BD2091 /* RxRelay.framework in Frameworks */,
@@ -327,6 +330,7 @@
 		D1FF7DDD2312E0E800BD2091 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1F96DA223192651008260E2 /* Nuke.framework */,
 				D1FF7DE32312E0E900BD2091 /* Alamofire.framework */,
 				D1FF7DE22312E0E900BD2091 /* Moya.framework */,
 				D1FF7DDF2312E0E900BD2091 /* ReactiveMoya.framework */,
@@ -493,6 +497,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nuke.framework",
 			);
 			name = "Carthage Script";
 			outputFileListPaths = (
