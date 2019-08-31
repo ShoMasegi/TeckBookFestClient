@@ -15,7 +15,38 @@ final class Application {
     }
 
     func defaultUseCaseProvider() -> UseCaseProvider {
-        let networking = Networking.newDefaultNetworking(responseFilterClosure: { statusCode -> Bool in
+        #if STUB
+            return stubUseCaseProvider()
+        #elseif DEBUG
+            return debugUseCaseProvider(statusCode: 426, data: stubbedResponse("error"))
+        #else
+            return releaseUseCaseProvider()
+        #endif
+    }
+
+    private func releaseUseCaseProvider() -> UseCaseProvider {
+        let networking = Networking.newDefaultNetworking(
+            responseFilterClosure: responseFilterClosure()
+        )
+        return UseCaseProvider(networking: networking)
+    }
+
+    private func stubUseCaseProvider() -> UseCaseProvider {
+        let networking = Networking.newStubNetworking()
+        return UseCaseProvider(networking: networking)
+    }
+
+    private func debugUseCaseProvider(statusCode: Int, data: Data) -> UseCaseProvider {
+        let networking = Networking.newDebugNetworking(
+            statusCode: statusCode,
+            data: data,
+            responseFilterClosure: responseFilterClosure()
+        )
+        return UseCaseProvider(networking: networking)
+    }
+
+    private func responseFilterClosure() -> ((Int) -> Bool) {
+        return { statusCode -> Bool in
             switch statusCode {
             case 426:
                 let lockViewController = LockViewController.instantiateFromStoryboard()
@@ -30,7 +61,6 @@ final class Application {
             default:
                 return true
             }
-        })
-        return UseCaseProvider(networking: networking)
+        }
     }
 }

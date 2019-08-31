@@ -8,7 +8,7 @@ final class HomeViewController: UIViewController, StoryboardInstantiable {
 
     private lazy var presenter: HomePresenterInput = HomePresenter(
         output: self,
-        useCase: UseCaseProvider(networking: Networking.newStubNetworking()).makeHomeUseCase()
+        useCase: Application.shared.defaultUseCaseProvider().makeHomeUseCase()
     )
 
     private enum SectionType {

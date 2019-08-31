@@ -102,12 +102,17 @@ extension NetworkingType {
         )
     }
 
-    static func newTestNetworking(statusCode: Int, data: Data) -> Networking {
+    static func newDebugNetworking(
+        statusCode: Int,
+        data: Data,
+        responseFilterClosure: ((Int) -> Bool)? = nil
+    ) -> Networking {
         return Networking(
             provider: MoyaProvider(
                 endpointClosure: Networking.endpointClosure(statusCode: statusCode, data: data),
                 stubClosure: MoyaProvider.immediatelyStub
-            )
+            ),
+            responseFilterClosure: responseFilterClosure
         )
     }
 
