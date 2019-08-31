@@ -33,13 +33,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="204-U2-ax0">
-                                        <rect key="frame" x="10" y="104" width="260" height="19.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <rect key="frame" x="10" y="100" width="260" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="body label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBr-Fk-o9F">
-                                        <rect key="frame" x="10" y="133.5" width="260" height="86"/>
+                                        <rect key="frame" x="10" y="129.5" width="260" height="90"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -82,11 +82,12 @@
                                     <constraint firstAttribute="trailing" secondItem="5Zz-pr-7te" secondAttribute="trailing" id="qvv-bw-Gai"/>
                                     <constraint firstAttribute="trailing" secondItem="HBr-Fk-o9F" secondAttribute="trailing" constant="10" id="scS-Po-rad"/>
                                     <constraint firstItem="5Zz-pr-7te" firstAttribute="top" secondItem="Vyu-7Y-9Zi" secondAttribute="bottom" id="tKt-cR-7KB"/>
-                                    <constraint firstItem="204-U2-ax0" firstAttribute="top" secondItem="qqw-4p-zv5" secondAttribute="bottom" constant="24" id="xA2-fz-bsP"/>
+                                    <constraint firstItem="204-U2-ax0" firstAttribute="top" secondItem="qqw-4p-zv5" secondAttribute="bottom" constant="20" id="xA2-fz-bsP"/>
                                     <constraint firstItem="Vyu-7Y-9Zi" firstAttribute="leading" secondItem="AO9-1A-yQl" secondAttribute="leading" id="xd5-iB-VHn"/>
                                 </constraints>
                             </view>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="GkC-mX-4cT" firstAttribute="top" secondItem="5Hk-vh-jyH" secondAttribute="top" id="Jko-Ls-ih3"/>
                             <constraint firstItem="GkC-mX-4cT" firstAttribute="leading" secondItem="9jq-TW-mac" secondAttribute="leading" id="N4T-lp-knO"/>

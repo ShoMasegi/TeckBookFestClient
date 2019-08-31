@@ -14,7 +14,7 @@ final class LockViewController: UIViewController, StoryboardInstantiable {
         var body: String {
             switch self {
             case .maintenance:
-                return "現在メンテナンス中です。復旧までしばらくお待ち下さい。"
+                return "現在メンテナンス中です。\n復旧までしばらくお待ち下さい。"
             case .versionUpdate:
                 return "アプリを安定にご利用いただくため、最新バージョンへのアップデートをお願いします。"
             }
@@ -28,7 +28,7 @@ final class LockViewController: UIViewController, StoryboardInstantiable {
         }
 
         var url: URL? {
-            return URL(string: "https://github.com/ShoMasegi/TechBookFestClient")
+            return URL(string: "https://github.com/ShoMasegi/TeckBookFestClient")
         }
     }
 
