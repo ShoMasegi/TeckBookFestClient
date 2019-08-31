@@ -6,7 +6,7 @@ enum TBAPI: String {
 
 extension TBAPI: TargetType {
     var baseURL: URL {
-        let urlString = "https://dev-api.techboost7"
+        let urlString = "https://api.techboost7"
         guard let url = URL(string: urlString) else {
             fatalError("baseURL could not be configured.")
         }
