@@ -35,6 +35,7 @@
 		D1F96DA323192651008260E2 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F96DA223192651008260E2 /* Nuke.framework */; };
 		D1F96DA523192E92008260E2 /* LabelTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DA423192E92008260E2 /* LabelTableViewHeaderFooterView.swift */; };
 		D1F96DA723192EA0008260E2 /* LabelTableViewHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F96DA623192EA0008260E2 /* LabelTableViewHeaderFooterView.xib */; };
+		D1F96DA9231A43D3008260E2 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = D1F96DA8231A4307008260E2 /* error.json */; };
 		D1F96DAB231A4F5C008260E2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DAA231A4F5C008260E2 /* Response.swift */; };
 		D1F96DAD231A537B008260E2 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DAC231A537B008260E2 /* APIError.swift */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
@@ -99,6 +100,7 @@
 		D1F96DA223192651008260E2 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
 		D1F96DA423192E92008260E2 /* LabelTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
 		D1F96DA623192EA0008260E2 /* LabelTableViewHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewHeaderFooterView.xib; sourceTree = "<group>"; };
+		D1F96DA8231A4307008260E2 /* error.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
 		D1F96DAA231A4F5C008260E2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		D1F96DAC231A537B008260E2 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				D1F96D6C2316036B008260E2 /* home.json */,
+				D1F96DA8231A4307008260E2 /* error.json */,
 			);
 			path = Stubs;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F96DA9231A43D3008260E2 /* error.json in Resources */,
 				D1F96D9423190D07008260E2 /* HomeCoverTableViewCell.xib in Resources */,
 				D1FF7DBA2312DB0600BD2091 /* LaunchScreen.storyboard in Resources */,
 				D1FF7DB72312DB0600BD2091 /* Assets.xcassets in Resources */,
