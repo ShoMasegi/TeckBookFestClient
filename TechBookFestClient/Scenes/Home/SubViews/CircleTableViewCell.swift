@@ -20,7 +20,7 @@ final class CircleTableViewCell: UITableViewCell {
         if let url = URL(string: circle.imageUrl) {
             Nuke.loadImage(with: url, into: thumbnailImageView)
         }
-        tagLabel.backgroundColor = UIColor.orange
+        tagLabel.backgroundColor = circle.circleType.color
         tagLabel.text = circle.position
         nameLabel.text = circle.title
         categoryLabel.text = circle.category

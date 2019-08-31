@@ -11,7 +11,7 @@
     "items": [
       {
         "id": 1,
-        "title": "〇〇〇〇執筆部",
+        "title": "〇〇〇〇運営",
         "circle_type": "operator",
         "position": "な01",
         "category": "ソフトウェア全般",
@@ -21,7 +21,7 @@
       {
         "id": 2,
         "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "circle_type": "sponsor",
         "position": "な02",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -29,8 +29,8 @@
       },
       {
         "id": 3,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "株式会社〇〇",
+        "circle_type": "sponsor",
         "position": "な03",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -38,8 +38,8 @@
       },
       {
         "id": 4,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇〇同好会",
+        "circle_type": "sponsor",
         "position": "な04",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -47,8 +47,8 @@
       },
       {
         "id": 5,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇〇〇書房",
+        "circle_type": "sponsor",
         "position": "な05",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -56,8 +56,8 @@
       },
       {
         "id": 6,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇〇〇会",
+        "circle_type": "normal",
         "position": "に01",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -65,8 +65,8 @@
       },
       {
         "id": 7,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇〇研",
+        "circle_type": "normal",
         "position": "に02",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -74,8 +74,8 @@
       },
       {
         "id": 8,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇〇〇 Lab",
+        "circle_type": "normal",
         "position": "に03",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -83,8 +83,8 @@
       },
       {
         "id": 9,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇〇店",
+        "circle_type": "normal",
         "position": "に04",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -92,17 +92,17 @@
       },
       {
         "id": 10,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇農園",
+        "circle_type": "normal",
         "position": "に05",
-        "category": "ソフトウェア全般",
+        "category": "その他",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
         "image_url": "https://via.placeholder.com/360x512"
       },
       {
         "id": 11,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇〇〇団",
+        "circle_type": "normal",
         "position": "ぬ01",
         "category": "ソフトウェア全般",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
@@ -110,10 +110,10 @@
       },
       {
         "id": 12,
-        "title": "〇〇〇〇執筆部",
-        "circle_type": "operator",
+        "title": "〇〇食堂",
+        "circle_type": "normal",
         "position": "ぬ02",
-        "category": "ソフトウェア全般",
+        "category": "料理",
         "description": "〇〇〇〇の有志による技術書です。iOSやAndroid、サービス開発に関する話などさまざまな技術に関する話を凝縮してお届けします。",
         "image_url": "https://via.placeholder.com/360x512"
       }
