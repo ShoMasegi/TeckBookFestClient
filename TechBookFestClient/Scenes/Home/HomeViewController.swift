@@ -47,7 +47,11 @@ extension HomeViewController: HomePresenterOutput {
             self.home = home
             tableView.reloadData()
         case .failure(let error):
-            print(error)
+            let alert = UIAlertController(title: "Error",
+                                          message: error.localizedDescription,
+                                          preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .cancel))
+            present(alert, animated: true)
         }
     }
 }
