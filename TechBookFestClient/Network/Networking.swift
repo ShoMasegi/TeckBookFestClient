@@ -24,8 +24,18 @@ extension Networking {
         provider.request(target) { result in
             switch result {
             case .success(let response):
-                if self.responseFilterClosure?(response.statusCode) ?? true {
-                    completion(.success(response.decode()))
+                guard self.responseFilterClosure?(response.statusCode) ?? true else { return }
+                let filteredResult = response.filterAPIError()
+                switch filteredResult {
+                case .success(let response):
+                    do {
+                        let response = try Response<T>(response: response)
+                        completion(.success(response.data))
+                    } catch let error {
+                        completion(.failure(error))
+                    }
+                case .failure(let error):
+                    completion(.failure(error))
                 }
             case .failure(let error):
                 print("Networking request error: \(error)")
@@ -41,7 +51,18 @@ extension Networking {
                 self.responseFilterClosure?(response.statusCode) ?? true
             }
             .flatMap { response -> Observable<T> in
-                Observable.just(response.decode())
+                let filteredResult = response.filterAPIError()
+                switch filteredResult {
+                case .success(let response):
+                    do {
+                        let response = try Response<T>(response: response)
+                        return Observable.just(response.data)
+                    } catch let error {
+                        return Observable<T>.error(error)
+                    }
+                case .failure(let error):
+                    return Observable.error(error)
+                }
             }
     }
 }
