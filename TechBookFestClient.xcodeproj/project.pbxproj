@@ -35,6 +35,8 @@
 		D1F96DA323192651008260E2 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F96DA223192651008260E2 /* Nuke.framework */; };
 		D1F96DA523192E92008260E2 /* LabelTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DA423192E92008260E2 /* LabelTableViewHeaderFooterView.swift */; };
 		D1F96DA723192EA0008260E2 /* LabelTableViewHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F96DA623192EA0008260E2 /* LabelTableViewHeaderFooterView.xib */; };
+		D1F96DAB231A4F5C008260E2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DAA231A4F5C008260E2 /* Response.swift */; };
+		D1F96DAD231A537B008260E2 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DAC231A537B008260E2 /* APIError.swift */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
 		D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */; };
 		D1FF7DB52312DB0400BD2091 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF7DB32312DB0400BD2091 /* HomeViewController.storyboard */; };
@@ -97,6 +99,8 @@
 		D1F96DA223192651008260E2 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
 		D1F96DA423192E92008260E2 /* LabelTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
 		D1F96DA623192EA0008260E2 /* LabelTableViewHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewHeaderFooterView.xib; sourceTree = "<group>"; };
+		D1F96DAA231A4F5C008260E2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		D1F96DAC231A537B008260E2 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 			children = (
 				D1F96D6F23160754008260E2 /* Home.swift */,
 				D1F96D7123160768008260E2 /* Circle.swift */,
+				D1F96DAA231A4F5C008260E2 /* Response.swift */,
+				D1F96DAC231A537B008260E2 /* APIError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -553,6 +559,7 @@
 				D1F96D8F23180B6C008260E2 /* MoyaResponse+Extension.swift in Sources */,
 				D1F96D782316ADF0008260E2 /* RootViewController.swift in Sources */,
 				D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */,
+				D1F96DAD231A537B008260E2 /* APIError.swift in Sources */,
 				D1F96D9723190D25008260E2 /* HomeDescriptionTableViewCell.swift in Sources */,
 				D1F96D7E2316BB4A008260E2 /* StoryboardInstantiable.swift in Sources */,
 				D1F96D7023160754008260E2 /* Home.swift in Sources */,
@@ -560,6 +567,7 @@
 				D1F96D8223175584008260E2 /* UseCaseProvider.swift in Sources */,
 				D1F96D8B23180103008260E2 /* HomePresenter.swift in Sources */,
 				D1F96DA1231915FD008260E2 /* TagLabel.swift in Sources */,
+				D1F96DAB231A4F5C008260E2 /* Response.swift in Sources */,
 				D1F96D6823141475008260E2 /* TBAPI.swift in Sources */,
 				D1F96D642312FB97008260E2 /* Networking.swift in Sources */,
 				D1F96D7223160768008260E2 /* Circle.swift in Sources */,
