@@ -1,6 +1,6 @@
 import Moya
 
-enum TBAPI: String {
+enum TBAPI {
     case home
 }
 
@@ -15,34 +15,30 @@ extension TBAPI: TargetType {
 
     var path: String {
         switch self {
-        case .home:
-            return  "/home"
+        case .home: return  "/home"
         }
     }
 
     var method: Moya.Method {
         switch self {
-        default:
-            return .get
+        default: return .get
         }
     }
 
     var sampleData: Data {
         switch self {
-        default:
-            return stubbedResponse(rawValue)
+        case .home: return stubbedResponse("home")
         }
     }
 
     var task: Moya.Task {
         switch self {
-        default:
-            return .requestPlain
+        default: return .requestPlain
         }
     }
 
     var headers: [String : String]? {
-        return [:]
+        return ["Content-Type": "application/json"]
     }
 }
 

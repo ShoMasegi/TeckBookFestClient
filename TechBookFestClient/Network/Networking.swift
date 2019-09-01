@@ -70,9 +70,7 @@ extension Networking {
 extension NetworkingType {
     static func newDefaultNetworking(responseFilterClosure: ((Int) -> Bool)? = nil) -> Networking {
         return Networking(
-            provider: MoyaProvider(
-                requestClosure: requestClosure()
-            ),
+            provider: MoyaProvider(requestClosure: requestClosure()),
             responseFilterClosure: responseFilterClosure
         )
     }
@@ -96,7 +94,6 @@ extension NetworkingType {
     static func newStubNetworking() -> Networking {
         return Networking(
             provider: MoyaProvider(
-                requestClosure: Networking.requestClosure(),
                 stubClosure: MoyaProvider.immediatelyStub
             )
         )
