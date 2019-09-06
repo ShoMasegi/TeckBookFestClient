@@ -1,15 +1,39 @@
 import UIKit
 
 final class HomeViewController: UIViewController, StoryboardInstantiable {
+
+    private let networking: Networking = {
+        #if STUB
+            return Application.shared.stubNetworking()
+        #elseif DEBUG
+            return Application.shared.debugNetworking(
+                statusCode: 426,
+                data: stubbedResponse("error")
+            )
+        #else
+            return Application.shared.defaultNetworking()
+        #endif
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter.fetch()
-    }
 
-    private lazy var presenter: HomePresenterInput = HomePresenter(
-        output: self,
-        useCase: Application.shared.defaultUseCaseProvider().makeHomeUseCase()
-    )
+        networking.request(.home) { [weak self] (result: Result<Home, Error>) in
+            guard let self = self else { return }
+            switch result {
+
+            case .success(let home):
+                self.home = home
+
+            case .failure(let error):
+                let alert = UIAlertController(title: "Error",
+                                              message: error.localizedDescription,
+                                              preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .cancel))
+                self.present(alert, animated: true)
+            }
+        }
+    }
 
     private enum SectionType {
         case cover(_ cover: CoverSection)
@@ -25,6 +49,7 @@ final class HomeViewController: UIViewController, StoryboardInstantiable {
                 .description(home.descriptionSection),
                 .circles(home.circlesSection)
             ]
+            self.tableView.reloadData()
         }
     }
 
@@ -36,22 +61,6 @@ final class HomeViewController: UIViewController, StoryboardInstantiable {
             tableView.registerFromNib(HomeDescriptionTableViewCell.self)
             tableView.registerFromNib(CircleTableViewCell.self)
             tableView.registerReusableHeaderFooterFromNib(LabelTableViewHeaderFooterView.self)
-        }
-    }
-}
-
-extension HomeViewController: HomePresenterOutput {
-    func fetched(result: Result<Home, Error>) {
-        switch result {
-        case .success(let home):
-            self.home = home
-            tableView.reloadData()
-        case .failure(let error):
-            let alert = UIAlertController(title: "Error",
-                                          message: error.localizedDescription,
-                                          preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .cancel))
-            present(alert, animated: true)
         }
     }
 }

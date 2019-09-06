@@ -1,4 +1,5 @@
 import UIKit
+import Moya
 
 final class Application {
     static let shared = Application()
@@ -13,36 +14,27 @@ final class Application {
         window.rootViewController = rootViewController
         window.makeKeyAndVisible()
     }
+}
 
-    func defaultUseCaseProvider() -> UseCaseProvider {
-        #if STUB
-            return stubUseCaseProvider()
-        #elseif DEBUG
-            return debugUseCaseProvider(statusCode: 426, data: stubbedResponse("error"))
-        #else
-            return releaseUseCaseProvider()
-        #endif
+extension Application {
+    func defaultNetworking() -> Networking {
+        return Networking(provider: MoyaProvider(), responseFilterClosure: nil)
     }
 
-    private func releaseUseCaseProvider() -> UseCaseProvider {
-        let networking = Networking.newDefaultNetworking(
+    func stubNetworking() -> Networking {
+        return Networking(
+            provider: MoyaProvider(stubClosure: MoyaProvider.immediatelyStub)
+        )
+    }
+
+    func debugNetworking(statusCode: Int, data: Data) -> Networking {
+        return Networking(
+            provider: MoyaProvider(
+                endpointClosure: Networking.endpointClosure(statusCode: statusCode, data: data),
+                stubClosure: MoyaProvider.immediatelyStub
+            ),
             responseFilterClosure: responseFilterClosure()
         )
-        return UseCaseProvider(networking: networking)
-    }
-
-    private func stubUseCaseProvider() -> UseCaseProvider {
-        let networking = Networking.newStubNetworking()
-        return UseCaseProvider(networking: networking)
-    }
-
-    private func debugUseCaseProvider(statusCode: Int, data: Data) -> UseCaseProvider {
-        let networking = Networking.newDebugNetworking(
-            statusCode: statusCode,
-            data: data,
-            responseFilterClosure: responseFilterClosure()
-        )
-        return UseCaseProvider(networking: networking)
     }
 
     private func responseFilterClosure() -> ((Int) -> Bool) {

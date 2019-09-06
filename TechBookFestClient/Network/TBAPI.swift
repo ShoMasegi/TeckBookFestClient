@@ -2,6 +2,7 @@ import Moya
 
 enum TBAPI {
     case home
+    case circles(id: Int)
 }
 
 extension TBAPI: TargetType {
@@ -16,6 +17,7 @@ extension TBAPI: TargetType {
     var path: String {
         switch self {
         case .home: return  "/home"
+        case .circles(let id): return "/circles/\(id)"
         }
     }
 
@@ -28,6 +30,7 @@ extension TBAPI: TargetType {
     var sampleData: Data {
         switch self {
         case .home: return stubbedResponse("home")
+        case .circles: return stubbedResponse("circle")
         }
     }
 
