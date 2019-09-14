@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D159AA37232CE69900461641 /* Networking+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159AA36232CE69900461641 /* Networking+Rx.swift */; };
 		D1F96D562312E5BB008260E2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE72312E0E900BD2091 /* RxBlocking.framework */; };
 		D1F96D572312E5BB008260E2 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE82312E0E900BD2091 /* RxTest.framework */; };
 		D1F96D642312FB97008260E2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D632312FB97008260E2 /* Networking.swift */; };
@@ -23,7 +24,6 @@
 		D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D882317FD18008260E2 /* FadeTransitionable.swift */; };
 		D1F96D8B23180103008260E2 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8A23180103008260E2 /* HomePresenter.swift */; };
 		D1F96D8D231801DC008260E2 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8C231801DC008260E2 /* HomeUseCase.swift */; };
-		D1F96D8F23180B6C008260E2 /* MoyaResponse+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */; };
 		D1F96D9323190D07008260E2 /* HomeCoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D9123190D07008260E2 /* HomeCoverTableViewCell.swift */; };
 		D1F96D9423190D07008260E2 /* HomeCoverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F96D9223190D07008260E2 /* HomeCoverTableViewCell.xib */; };
 		D1F96D9723190D25008260E2 /* HomeDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D9523190D25008260E2 /* HomeDescriptionTableViewCell.swift */; };
@@ -36,7 +36,7 @@
 		D1F96DA523192E92008260E2 /* LabelTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DA423192E92008260E2 /* LabelTableViewHeaderFooterView.swift */; };
 		D1F96DA723192EA0008260E2 /* LabelTableViewHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F96DA623192EA0008260E2 /* LabelTableViewHeaderFooterView.xib */; };
 		D1F96DA9231A43D3008260E2 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = D1F96DA8231A4307008260E2 /* error.json */; };
-		D1F96DAB231A4F5C008260E2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DAA231A4F5C008260E2 /* Response.swift */; };
+		D1F96DAB231A4F5C008260E2 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DAA231A4F5C008260E2 /* ErrorResponse.swift */; };
 		D1F96DAD231A537B008260E2 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96DAC231A537B008260E2 /* APIError.swift */; };
 		D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */; };
 		D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF7DB12312DB0400BD2091 /* HomeViewController.swift */; };
@@ -73,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D159AA36232CE69900461641 /* Networking+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Networking+Rx.swift"; sourceTree = "<group>"; };
 		D1F96D632312FB97008260E2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D1F96D6723141475008260E2 /* TBAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBAPI.swift; sourceTree = "<group>"; };
 		D1F96D6C2316036B008260E2 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
@@ -87,7 +88,6 @@
 		D1F96D882317FD18008260E2 /* FadeTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransitionable.swift; sourceTree = "<group>"; };
 		D1F96D8A23180103008260E2 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		D1F96D8C231801DC008260E2 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
-		D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaResponse+Extension.swift"; sourceTree = "<group>"; };
 		D1F96D9123190D07008260E2 /* HomeCoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoverTableViewCell.swift; sourceTree = "<group>"; };
 		D1F96D9223190D07008260E2 /* HomeCoverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCoverTableViewCell.xib; sourceTree = "<group>"; };
 		D1F96D9523190D25008260E2 /* HomeDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDescriptionTableViewCell.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		D1F96DA423192E92008260E2 /* LabelTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
 		D1F96DA623192EA0008260E2 /* LabelTableViewHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewHeaderFooterView.xib; sourceTree = "<group>"; };
 		D1F96DA8231A4307008260E2 /* error.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
-		D1F96DAA231A4F5C008260E2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		D1F96DAA231A4F5C008260E2 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		D1F96DAC231A537B008260E2 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		D1FF7DAC2312DB0400BD2091 /* TechBookFestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FF7DAF2312DB0400BD2091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 			children = (
 				D1F96D6F23160754008260E2 /* Home.swift */,
 				D1F96D7123160768008260E2 /* Circle.swift */,
-				D1F96DAA231A4F5C008260E2 /* Response.swift */,
+				D1F96DAA231A4F5C008260E2 /* ErrorResponse.swift */,
 				D1F96DAC231A537B008260E2 /* APIError.swift */,
 			);
 			path = Models;
@@ -218,8 +218,8 @@
 		D1F96D792316BB0D008260E2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D1F96D8E23180B6C008260E2 /* MoyaResponse+Extension.swift */,
 				D1F96D7A2316BB1D008260E2 /* View */,
+				D159AA36232CE69900461641 /* Networking+Rx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -557,10 +557,10 @@
 				D1F96D9323190D07008260E2 /* HomeCoverTableViewCell.swift in Sources */,
 				D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */,
 				D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */,
-				D1F96D8F23180B6C008260E2 /* MoyaResponse+Extension.swift in Sources */,
 				D1F96D782316ADF0008260E2 /* RootViewController.swift in Sources */,
 				D1FF7DB02312DB0400BD2091 /* AppDelegate.swift in Sources */,
 				D1F96DAD231A537B008260E2 /* APIError.swift in Sources */,
+				D159AA37232CE69900461641 /* Networking+Rx.swift in Sources */,
 				D1F96D9723190D25008260E2 /* HomeDescriptionTableViewCell.swift in Sources */,
 				D1F96D7E2316BB4A008260E2 /* StoryboardInstantiable.swift in Sources */,
 				D1F96D7023160754008260E2 /* Home.swift in Sources */,
@@ -568,7 +568,7 @@
 				D1F96D8223175584008260E2 /* UseCaseProvider.swift in Sources */,
 				D1F96D8B23180103008260E2 /* HomePresenter.swift in Sources */,
 				D1F96DA1231915FD008260E2 /* TagLabel.swift in Sources */,
-				D1F96DAB231A4F5C008260E2 /* Response.swift in Sources */,
+				D1F96DAB231A4F5C008260E2 /* ErrorResponse.swift in Sources */,
 				D1F96D6823141475008260E2 /* TBAPI.swift in Sources */,
 				D1F96D642312FB97008260E2 /* Networking.swift in Sources */,
 				D1F96D7223160768008260E2 /* Circle.swift in Sources */,

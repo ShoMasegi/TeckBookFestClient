@@ -39,39 +39,19 @@ extension Networking {
                 default:
                     do {
                         let errorResponse = try decoder.decode(ErrorResponse.self, from: response.data)
-                        let error = APIError.server(statusCode: response.statusCode, message: errorResponse.message)
+                        let error = APIError.server(statusCode: response.statusCode,
+                                                    message: errorResponse.message)
                         return completion(.failure(error))
                     } catch let error {
                         return completion(.failure(error))
                     }
                 }
+
             case .failure(let error):
                 print("Networking request error: \(error)")
                 completion(.failure(error))
             }
         }
-    }
-
-    func request<T: Decodable>(_ target: Target) -> Observable<T> {
-        return provider.rx.request(target)
-            .asObservable()
-            .filter { response -> Bool in
-                self.responseFilterClosure?(response.statusCode) ?? true
-            }
-            .flatMap { response -> Observable<T> in
-                let filteredResult = response.filterAPIError()
-                switch filteredResult {
-                case .success(let response):
-                    do {
-                        let response = try Response<T>(response: response)
-                        return Observable.just(response.data)
-                    } catch let error {
-                        return Observable<T>.error(error)
-                    }
-                case .failure(let error):
-                    return Observable.error(error)
-                }
-            }
     }
 }
 
