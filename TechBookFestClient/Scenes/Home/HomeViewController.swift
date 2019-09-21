@@ -21,10 +21,8 @@ final class HomeViewController: UIViewController, StoryboardInstantiable {
         networking.request(.home) { [weak self] (result: Result<Home, Error>) in
             guard let self = self else { return }
             switch result {
-
             case .success(let home):
                 self.home = home
-
             case .failure(let error):
                 let alert = UIAlertController(title: "Error",
                                               message: error.localizedDescription,
@@ -104,6 +102,17 @@ extension HomeViewController: UITableViewDelegate {
             return UIScreen.main.bounds.width * 9 / 16
         default:
             return UITableView.automaticDimension
+        }
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        switch sections[indexPath.section] {
+        case .circles:
+            let viewController = CircleDetailViewController.instantiateFromStoryboard()
+            navigationController?.pushViewController(viewController, animated: true)
+        default:
+            return
         }
     }
 
