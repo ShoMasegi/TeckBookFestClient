@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D159AA37232CE69900461641 /* Networking+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159AA36232CE69900461641 /* Networking+Rx.swift */; };
+		D159AA3A232CF05B00461641 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159AA39232CF05B00461641 /* CollectionViewLayout.swift */; };
 		D159AA3C232CF52500461641 /* CircleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159AA3B232CF52500461641 /* CircleDetailViewController.swift */; };
 		D159AA3E232CF53A00461641 /* CircleDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D159AA3D232CF53A00461641 /* CircleDetailViewController.storyboard */; };
 		D1F96D562312E5BB008260E2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE72312E0E900BD2091 /* RxBlocking.framework */; };
@@ -75,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		D159AA36232CE69900461641 /* Networking+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Networking+Rx.swift"; sourceTree = "<group>"; };
+		D159AA39232CF05B00461641 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
 		D159AA3B232CF52500461641 /* CircleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDetailViewController.swift; sourceTree = "<group>"; };
 		D159AA3D232CF53A00461641 /* CircleDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CircleDetailViewController.storyboard; sourceTree = "<group>"; };
 		D1F96D632312FB97008260E2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		D159AA38232CEBBD00461641 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				D159AA39232CF05B00461641 /* CollectionViewLayout.swift */,
 				D159AA3B232CF52500461641 /* CircleDetailViewController.swift */,
 				D159AA3D232CF53A00461641 /* CircleDetailViewController.storyboard */,
 			);
@@ -578,6 +581,7 @@
 				D1F96D7E2316BB4A008260E2 /* StoryboardInstantiable.swift in Sources */,
 				D1F96D7023160754008260E2 /* Home.swift in Sources */,
 				D1F96D8D231801DC008260E2 /* HomeUseCase.swift in Sources */,
+				D159AA3A232CF05B00461641 /* CollectionViewLayout.swift in Sources */,
 				D1F96D8223175584008260E2 /* UseCaseProvider.swift in Sources */,
 				D1F96DA1231915FD008260E2 /* TagLabel.swift in Sources */,
 				D1F96DAB231A4F5C008260E2 /* ErrorResponse.swift in Sources */,
