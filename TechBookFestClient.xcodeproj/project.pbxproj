@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D159AA37232CE69900461641 /* Networking+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159AA36232CE69900461641 /* Networking+Rx.swift */; };
+		D159AA3C232CF52500461641 /* CircleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159AA3B232CF52500461641 /* CircleDetailViewController.swift */; };
+		D159AA3E232CF53A00461641 /* CircleDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D159AA3D232CF53A00461641 /* CircleDetailViewController.storyboard */; };
 		D1F96D562312E5BB008260E2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE72312E0E900BD2091 /* RxBlocking.framework */; };
 		D1F96D572312E5BB008260E2 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE82312E0E900BD2091 /* RxTest.framework */; };
 		D1F96D642312FB97008260E2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D632312FB97008260E2 /* Networking.swift */; };
@@ -73,6 +75,8 @@
 
 /* Begin PBXFileReference section */
 		D159AA36232CE69900461641 /* Networking+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Networking+Rx.swift"; sourceTree = "<group>"; };
+		D159AA3B232CF52500461641 /* CircleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDetailViewController.swift; sourceTree = "<group>"; };
+		D159AA3D232CF53A00461641 /* CircleDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CircleDetailViewController.storyboard; sourceTree = "<group>"; };
 		D1F96D632312FB97008260E2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D1F96D6723141475008260E2 /* TBAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBAPI.swift; sourceTree = "<group>"; };
 		D1F96D6C2316036B008260E2 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
@@ -162,6 +166,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D159AA38232CEBBD00461641 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D159AA3B232CF52500461641 /* CircleDetailViewController.swift */,
+				D159AA3D232CF53A00461641 /* CircleDetailViewController.storyboard */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		D1F96D582312F2A6008260E2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				D1F96D9F231915E5008260E2 /* Common */,
+				D159AA38232CEBBD00461641 /* Detail */,
 				D1F96D83231758F3008260E2 /* Lock */,
 				D1F96D7F2316BDDF008260E2 /* Home */,
 				D1F96D772316ADF0008260E2 /* RootViewController.swift */,
@@ -467,6 +481,7 @@
 				D1FF7DBA2312DB0600BD2091 /* LaunchScreen.storyboard in Resources */,
 				D1FF7DB72312DB0600BD2091 /* Assets.xcassets in Resources */,
 				D1F96D9823190D25008260E2 /* HomeDescriptionTableViewCell.xib in Resources */,
+				D159AA3E232CF53A00461641 /* CircleDetailViewController.storyboard in Resources */,
 				D1F96D6D2316036B008260E2 /* home.json in Resources */,
 				D1F96D9C23190D51008260E2 /* CircleTableViewCell.xib in Resources */,
 				D1FF7DB52312DB0400BD2091 /* HomeViewController.storyboard in Resources */,
@@ -552,6 +567,7 @@
 				D1F96D9E23190D71008260E2 /* UITableView+Extension.swift in Sources */,
 				D1F96D8523175902008260E2 /* LockViewController.swift in Sources */,
 				D1F96D9323190D07008260E2 /* HomeCoverTableViewCell.swift in Sources */,
+				D159AA3C232CF52500461641 /* CircleDetailViewController.swift in Sources */,
 				D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */,
 				D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */,
 				D1F96D782316ADF0008260E2 /* RootViewController.swift in Sources */,
