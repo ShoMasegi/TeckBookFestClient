@@ -11,6 +11,7 @@
 		D159AA3A232CF05B00461641 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159AA39232CF05B00461641 /* CollectionViewLayout.swift */; };
 		D159AA3C232CF52500461641 /* CircleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159AA3B232CF52500461641 /* CircleDetailViewController.swift */; };
 		D159AA3E232CF53A00461641 /* CircleDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D159AA3D232CF53A00461641 /* CircleDetailViewController.storyboard */; };
+		D187B8DC2336E31B00E2B837 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D187B8DB2336E31B00E2B837 /* UICollectionView+Extension.swift */; };
 		D1F96D562312E5BB008260E2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE72312E0E900BD2091 /* RxBlocking.framework */; };
 		D1F96D572312E5BB008260E2 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FF7DE82312E0E900BD2091 /* RxTest.framework */; };
 		D1F96D642312FB97008260E2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F96D632312FB97008260E2 /* Networking.swift */; };
@@ -79,6 +80,7 @@
 		D159AA39232CF05B00461641 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
 		D159AA3B232CF52500461641 /* CircleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDetailViewController.swift; sourceTree = "<group>"; };
 		D159AA3D232CF53A00461641 /* CircleDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CircleDetailViewController.storyboard; sourceTree = "<group>"; };
+		D187B8DB2336E31B00E2B837 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		D1F96D632312FB97008260E2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D1F96D6723141475008260E2 /* TBAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBAPI.swift; sourceTree = "<group>"; };
 		D1F96D6C2316036B008260E2 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				D1F96D7D2316BB4A008260E2 /* StoryboardInstantiable.swift */,
 				D1F96D882317FD18008260E2 /* FadeTransitionable.swift */,
 				D1F96D9D23190D71008260E2 /* UITableView+Extension.swift */,
+				D187B8DB2336E31B00E2B837 /* UICollectionView+Extension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -571,6 +574,7 @@
 				D1F96D8523175902008260E2 /* LockViewController.swift in Sources */,
 				D1F96D9323190D07008260E2 /* HomeCoverTableViewCell.swift in Sources */,
 				D159AA3C232CF52500461641 /* CircleDetailViewController.swift in Sources */,
+				D187B8DC2336E31B00E2B837 /* UICollectionView+Extension.swift in Sources */,
 				D1F96D892317FD18008260E2 /* FadeTransitionable.swift in Sources */,
 				D1FF7DB22312DB0400BD2091 /* HomeViewController.swift in Sources */,
 				D1F96D782316ADF0008260E2 /* RootViewController.swift in Sources */,
